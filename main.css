@@ -1,0 +1,146 @@
+﻿*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px 0;
+  background: #c99c5e url(img/bg-body.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-header,
+.page-main {
+  max-width: 860px;
+  margin: 0px auto;
+  padding: 0 60px;
+  background: #fff;
+}
+
+.main-header__title {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #000;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.brief-information {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 15px 20px;
+  background: #fefefe;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 10px 5px 0px black;
+}
+
+.brief-information__image-user {
+  float: left;
+  margin-right: 4%;
+}
+
+.brief-information__text {
+  margin: 0;
+  margin-bottom: 3px;
+  line-height: 25px;
+}
+
+.brief-information__text span {
+  color: #f36d52;
+  font-weight: 600;
+}
+
+.profile,
+.information-education,
+.professional-experience,
+.skills {
+  margin-bottom: 25px;
+}
+
+.information__list {
+  list-style: none;
+}
+
+.information__item {
+  margin-bottom: 20px;
+}
+
+.information__item span {
+  color: #568cda;
+}
+
+
+.information__date {
+  float: left;
+  margin-right: 150px;
+}
+
+.information__name {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.professional-experience {
+  margin-bottom: 
+}
+
+.skills__list {
+  padding-left: 20px;
+}
+
+.interests-information {
+  padding-bottom: 50px;
+}
+
+.information-education__certificate {
+  font-weight: 600;
+  line-height: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+.information-education__certificate:hover {
+  border-bottom: 2px solid #000;
+}
+
+
+/*Анимация*/
+
+@keyframes bounceRight{
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(-40px);
+    opacity: 0.3;
+  }
+  90% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.brief-information {
+  animation: bounceRight 1.2s;
+}
